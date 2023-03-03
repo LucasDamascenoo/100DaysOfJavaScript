@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contador-div {
+  width: 40rem;
+  border: 1px solid;
+  padding: 1rem;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.numero {
+  font-size: 4rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  color: black;
+  border: none;
+}
+
+.subtrair {
+  background-color: red;
+  color: black;
+}
